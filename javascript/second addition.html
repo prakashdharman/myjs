@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>input tutorial</title>
+	
+</head>
+<body>
+	<h1 style="font:bold;size:50;">ADDITION</h1>
+	
+	Enter first number:  <input type="text" id="textbox1" name="textbox1" value="" style="position:absolute;left:250px">
+	<br><br>
+	Enter second number: <input type="text" id="textbox2" name="textbox2" value="" style="position:absolute;left:250px">
+	<br><br>
+	<input type="button" value="sum" onClick="sum()" style="font:bold;size:35px;border:solid;position:absolute;left:315px">
+	<br><br>
+	Result:		     <input type="text" id="textbox3" name="textbox3" style="position:absolute;left:250px">
+	<br>
+
+	
+	<script type="text/javascript">
+		
+		function sum()
+		{
+			var a,b,res;
+			 a=parseInt(document.getElementById("textbox1").value);
+			 b=parseInt(document.getElementById("textbox2").value);
+			 res=document.getElementById("textbox3"); 
+			 var ans= a+b;
+			 res.value = ans;
+			
+		}
+		
+	</script>	
+	
+		
+</body>
+</html>

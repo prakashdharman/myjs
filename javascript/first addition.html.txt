@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>input tutorial</title>
+	
+</head>
+<body>
+	<form name="formcalc">
+	
+	Enter first number:  <input type="text" name="textbox1" style="position:absolute;left:250px">
+	<br>
+	Enter second number: <input type="text" name="textbox2" style="position:absolute;left:250px">
+	<br><br>
+	<input type="button" value="sum" onClick="sum()" style="font:bold;size:25px;border:solid;position:absolute;left:315px">
+	<br><br>
+	Result:		     <input type="text" name="textbox3" style="position:absolute;left:250px">
+	<br>
+
+	</form>
+	<script type="text/javascript">
+		
+		function sum()
+		{
+			var a,b,res;
+			 a=Number(document.formcalc.textbox1.value);
+			 b=Number(document.formcalc.textbox2.value);
+			 res= a+b;
+			 document.formcalc.textbox3.value=res;
+			
+		}
+		
+	</script>	
+	
+		
+</body>
+</html>

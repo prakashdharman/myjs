@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First JavaScript code!!!</title>
+	
+	<script>
+		alert("Welcome!!! You are now learning JavaScript.");
+		
+		
+	</script>
+</head>
+<body onload="alert('yes!u can')">
+	<h1 style="color:blue;">I am learning Javascript</h1>
+	<p>Let me introduce myself</p>
+	<p>My name is usha<br>
+	I have 2 kids</p>
+	<p>I am in sweden</p><hr>
+	<p.one>
+
+
+		<h1 style="color:red;"
+>Addition</h1>
+		
+		<script>
+//alert("enter values!");
+// prompt, used if you want the user input
+var x = prompt("Please enter x", "1");
+// pops OK or Cancel to proceed
+var y = prompt("Please enter y", "1");
+//var y = confirm("Press a button");
+		//var x=1;
+		//var y=2;
+		var z=x+y;
+		document.write("Add=");
+		document.write(z);
+</script></p.one>
+		
+</body>
+</html>
